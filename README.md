@@ -1,10 +1,10 @@
 ComparisonOfDifferentImplementationOfMST
 ========================================
 
-/** Name: Renkai Ji
+* Author: Renkai Ji
 * CS6301, Project 6
 * Section 014
-*/
+
 
 
 I. Purpose
@@ -43,16 +43,16 @@ III. Compiling and Executing on command line
 on command line,
 
 To compile, run:
-change your current working directory to Project6_Renkai_Ji_and_Zhuoyi_Wang\src:
+change your current working directory to Project6\src:
 javac -d . *.java
 
 
 To execute, run:
-change your current working directory to Project6_Renkai_Ji_and_Zhuoyi_Wang\src:
+change your current working directory to Project6\src:
 java performanceComparison
 
 //To change the test file:
-//First, you need to copy your target file into the directory Project6_Renkai_Ji_and_Zhuoyi_Wang\src. 
+//First, you need to copy your target file into the directory Project6\src. 
 //Second, you need change the file name to your target file name in the main function of src/performanceComparison.java     
 
 
