@@ -1,0 +1,87 @@
+
+1.For test file "in1.txt", (50 vertices, 140 edges)
+Running result:
+Prim's algorithm Implementation 1 
+Sample output:84950
+Elapsed time(ms):3
+
+Prim's algorithm Implementation 2(Using PairingHeap) 
+Sample output:84950
+Elapsed time(ms):3
+
+Prim's algorithm Implementation 2((Using BinaryHeap) 
+Sample output:84950
+Elapsed time(ms):1
+
+Kruskal's algorithm 
+Sample output:84950
+Elapsed time(ms):1
+
+
+2.For test file "in2.txt", (100 vertices, 284 edges)
+Running result:
+Prim's algorithm Implementation 1 
+Sample output:110419
+Elapsed time(ms):5
+
+Prim's algorithm Implementation 2(Using PairingHeap) 
+Sample output:110419
+Elapsed time(ms):3
+
+Prim's algorithm Implementation 2(Using BinaryHeap) 
+Sample output:110419
+Elapsed time(ms):1
+
+Kruskal's algorithm 
+Sample output:110419
+Elapsed time(ms):1
+
+
+3.For test file "in3.txt", (200 vertices, 580 edges)
+Running result:
+Prim's algorithm Implementation 1 
+Sample output:153534
+Elapsed time(ms):6
+
+Prim's algorithm Implementation 2(Using PairingHeap) 
+Sample output:153534
+Elapsed time(ms):5
+
+Prim's algorithm Implementation 2(Using BinaryHeap) 
+Sample output:153534
+Elapsed time(ms):2
+
+Kruskal's algorithm 
+Sample output:153534
+Elapsed time(ms):2
+
+
+4.For test file "in.100k", (100000 vertices, 299971 edges)
+Running result:
+Prim's algorithm Implementation 1 
+Sample output:3384476
+Elapsed time(ms):358
+
+Prim's algorithm Implementation 2(Using PairingHeap) 
+Sample output:3384476
+Elapsed time(ms):208
+
+Prim's algorithm Implementation 2(Using BinaryHeap) 
+Sample output:3384476
+Elapsed time(ms):119
+
+Kruskal's algorithm 
+Sample output:3384476
+Elapsed time(ms):494
+
+
+
+Note: 
+All the results above are obtained based on Windows 7 platform. 
+For small test file, it seems Kruskal's algorithm and Prim's algorithm Implementation 2(Using BinaryHeap) have better performance than the other two. It could be attributed to the simpleness of the code used to implement Kruskal's algorithm.
+
+However, for big test file, we can see that the order of running time of different implementations is: 
+
+Prim's algorithm Implementation 2(Using BinaryHeap) <  Prim's algorithm Implementation 2(Using PairingHeap) < Prim's algorithm Implementation 1  < Kruskal's algorithm
+
+To conclude, the winner of this test is Prim's algorithm Implementation 2(Using BinaryHeap with array recording indices)
